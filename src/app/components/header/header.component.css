@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.avatar {
+
+}
+
+.avatar_picture {
+  border-radius: 50%;
+}
+
+.account_data {
+  display: block;
+}
+
+.user_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button_edit_profile {
+  margin-left: 20px;
+}
+
+.button_settings_profile {
+
+}
+
+.follow_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

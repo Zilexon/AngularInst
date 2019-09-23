@@ -1,0 +1,27 @@
+<div class="header" *ngIf="code == 200">
+
+  <div class="avatar">
+    <img class="avatar_picture" src="{{res.profile_picture}}">
+  </div>
+
+  <div class="account_data">
+
+    <div class="user_data">
+      <h2 class="h_data">{{res.username}}</h2>
+      <button mat-stroked-button class="button_edit_profile">
+        Редактировать профиль
+      </button>
+      <button mat-flat-button class="button_settings_profile">
+        <img src="../../../assets/settings-20px.svg" alt="">
+      </button>
+    </div>
+
+    <div class="follow_data">
+      <h4 class="h_data">{{res.counts.media}} публикаций</h4>
+      <h4 class="h_data">{{res.counts.follows}} подписчиков</h4>
+      <h4 class="h_data">Подписки: {{res.counts.followed_by}}</h4>
+    </div>
+
+  </div>
+
+</div>

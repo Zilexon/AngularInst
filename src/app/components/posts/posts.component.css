@@ -1,0 +1,14 @@
+.user_photos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 935px;
+}
+
+.photo {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
